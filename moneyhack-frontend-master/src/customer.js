@@ -18,7 +18,7 @@ class Customer extends Component {
     const { article, nomber,date,maxPrice } = this.state;
 
     return (
-      <Paper style={{ margin: 100, padding: 10, width: 350, height: 400 }}>
+      <Paper style={{ margin: 100,alignItems:"center", padding: 10, width: 350, height: 400 }}>
         <p>Заказчик</p>
 
           <TextField
